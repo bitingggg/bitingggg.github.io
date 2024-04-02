@@ -1,0 +1,55 @@
+
+body {
+margin: 0px;
+background-color: #c2c4c3;
+background-image: url("img/tile_bg.gif");
+font-size: 4vh;
+font-family: Arial, sans-serif;
+}
+
+.column {
+background-color: #FFF;
+margin: auto;
+width: 75vw;
+min-height: 100vh;
+box-shadow: 0px 0px 15px 15px #a9abaa;
+max-width: 1080px;
+}
+
+.column_text {
+padding: 3vw;
+}
+
+#navigation:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+
+#navigation {
+    height: 1.15em;
+    line-height: 1.15;
+    margin:auto;
+    text-align:justify;
+    padding-bottom: 2vh;
+}
+
+img {}
+
+.splash {
+   width: 100%;
+   margin: 0px;
+   padding-bottom: 2vh;
+   object-fit: fill;
+   display:block;
+   height: 79vh;}
+
+.table1 {
+width: 50%;
+display:inline-block;
+    vertical-align: top;
+}
+.table2 {
+width: 50%;
+display:inline-block;
+    vertical-align: top;}
