@@ -37,7 +37,8 @@ padding: 3vw;
     padding-bottom: 2vh;
 }
 
-img {max-width:100%;}
+img {max-width:100%;
+vertical-align: middle;}
 
 .splash {
    width: 100%;
