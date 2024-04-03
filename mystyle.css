@@ -1,9 +1,12 @@
+html {
+  overflow-y: scroll;
+}
 
 body {
 margin: 0px;
 background-color: #c2c4c3;
 background-image: url("img/tile_bg.gif");
-font-size: 4vh;
+font-size: 6vmin;
 font-family: Arial, sans-serif;
 }
 
@@ -34,7 +37,7 @@ padding: 3vw;
     padding-bottom: 2vh;
 }
 
-img {}
+img {max-width:100%;}
 
 .splash {
    width: 100%;
@@ -43,6 +46,13 @@ img {}
    object-fit: fill;
    display:block;
    height: 79vh;}
+
+.blogpic {
+ width: 75%;
+ display: block;
+ margin: auto;
+ padding-top: 1vh;
+ padding-bottom: 1vh;}
 
 .table1 {
 width: 50%;
